@@ -51,11 +51,11 @@
     letter-spacing: 4%;
 }
 
-#data-start:hover {
+[data-start]:hover {
     background-color: #6C8CFF;
 }
 
-#data-start:disabled {
+[data-start]:disabled {
     background-color: #CFCFCF;
     color: #989898;
 }

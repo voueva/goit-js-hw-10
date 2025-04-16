@@ -4,11 +4,11 @@ import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
 
 const datetimePicker = document.querySelector('#datetime-picker');
-const startBtn = document.querySelector('#data-start');
-const daysEl = document.querySelector('#data-days');
-const hoursEl = document.querySelector('#data-hours');
-const minutesEl = document.querySelector('#data-minutes');
-const secondsEl = document.querySelector('#data-seconds');
+const startBtn = document.querySelector('[data-start]');
+const daysEl = document.querySelector('[data-days]');
+const hoursEl = document.querySelector('[data-hours]');
+const minutesEl = document.querySelector('[data-minutes]');
+const secondsEl = document.querySelector('[data-seconds]');
 
 let userSelectedDate = null;
 let timerId = null;
